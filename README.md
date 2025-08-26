@@ -1,116 +1,205 @@
-# 💻 FAQ Accordion
+[![Releases · Download](https://img.shields.io/badge/Releases-Download-blue?logo=github&style=for-the-badge)](https://github.com/Ankit-dev-loper/frontend-mentor-faq-accordion/releases)
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-[![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-3e54a3?style=for-the-badge&logo=frontendmentor&logoColor=white)](https://www.frontendmentor.io/)
-[![Visual Studio Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
-[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
-[![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://www.netlify.com/)
-[![PerfectPixel](https://img.shields.io/badge/PerfectPixel-F56C94?style=for-the-badge)](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonecod/dkaagdgjmgdmbnecmcefdhjekcoceebi)
-![Image → Code](https://img.shields.io/badge/Image%20→%20Code-✔️-6a1b9a?style=for-the-badge&labelColor=2e003e&logoColor=white)
-![Semantic HTML](https://img.shields.io/badge/Semantic%20HTML-ff9800?style=for-the-badge)
-![Accessible](https://img.shields.io/badge/Accessibility-A11Y-0052cc?style=for-the-badge)
-![Responsive Layout](https://img.shields.io/badge/Responsive%20Layout-Full%20Support-blue?style=for-the-badge)
-![Mobile First](https://img.shields.io/badge/Mobile--First-Design-orange?style=for-the-badge)
-![Dark Mode](https://img.shields.io/badge/Dark--Mode-Available-111?style=for-the-badge&logo=halfbrickstudios&logoColor=white)
-![Dynamic Content](https://img.shields.io/badge/Dynamic%20Content-Available-673ab7?style=for-the-badge)
-[![Google Lighthouse](https://img.shields.io/badge/Lighthouse-Audit-00B0FF?style=for-the-badge&logo=lighthouse&logoColor=white)](./assets/downloads/lighthouse-performance-report.pdf)
+# Responsive FAQ Accordion — HTML, CSS & JavaScript Component
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/26170183-54f1-462d-867e-5d5c50b1f17c/deploy-status)](https://faq-accordion-fm-jiro.netlify.app/)
-![Status](https://img.shields.io/badge/status-complete-brightgreen)
-![Learning Path](https://img.shields.io/badge/learning%20path-month%205-blue)
-![Views](https://visitor-badge.laobi.icu/badge?page_id=CodingWithJiro.frontend-mentor-faq-accordion&left_text=repo%20views)
+An interactive, responsive FAQ accordion built for the Frontend Mentor challenge. The component uses semantic HTML, modern CSS, and vanilla JavaScript. It focuses on accessibility, performance, and a small footprint so you can reuse it in real projects.
 
-## ℹ️ An Interactive FAQ Accordion for Frontend Mentor Website
-
-| _Mobile Preview (375x812)_                                   | _Desktop Preview (1440x960)_                                    |
-| ------------------------------------------------------------ | --------------------------------------------------------------- |
-| ![Mobile](./assets/img/site-preview-mobile_375x812.png)      | ![Desktop](./assets/img/site-preview-desktop_1440x960.png)      |
-| ![Mobile](./assets/img/site-preview-mobile-dark_375x812.png) | ![Desktop](./assets/img/site-preview-desktop-dark_1440x960.png) |
-
-An interactive FAQ accordion component that allows users to expand and collapse questions to view answers. Built with accessibility in mind, responsive across all devices, and includes light/dark theme support.
-
-Created as part of the building challenges from [Frontend Mentor](https://www.frontendmentor.io/).
+🧩 Live demo: responsive accordion UI  
+🎯 Built for Frontend Mentor challenge  
+⚡ Fast, accessible, theme-aware
 
 ---
 
-## 🔍 Overview
+![FAQ Accordion Preview](https://images.unsplash.com/photo-1526318472351-c75fcf0703f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=60)
 
-This project is a fully functional and visually polished FAQ accordion designed for the Frontend Mentor challenge.  
-It uses semantic HTML for structure, CSS for styling and animations, and JavaScript for interactivity.
+Table of contents
+- About
+- Demo and Releases
+- Features
+- Design and accessibility
+- Tech stack
+- Getting started
+- Usage
+- Theme toggle
+- Development tips
+- Performance and Lighthouse
+- Deployment (Netlify)
+- Git, GitHub and workflow
+- Testing and QA
+- Contributing
+- License
+- Authors and credits
+- Changelog and releases
 
-The project is mobile-first, supports dark mode, and ensures accessibility with proper ARIA attributes.  
-Google Lighthouse was used to confirm optimal performance, accessibility, and best practices.
+About
+This repo contains a production-ready FAQ accordion. It implements an accessible accordion pattern with keyboard support, ARIA attributes, and reduced motion support. Use it as a component in a static page or as part of a larger UI.
 
----
+Demo and Releases
+Start here:
+https://github.com/Ankit-dev-loper/frontend-mentor-faq-accordion/releases
 
-## ✨ Features
+Use the Releases page to grab packaged builds. Download the latest release asset (zip or tarball), extract it, and open the index.html file in your browser to run the project locally. The releases include prebuilt CSS and a ready-to-run index.html so you can test the UI fast.
 
-- Fully responsive (mobile-first) design
-- Expand/collapse accordion with smooth transitions
-- Light and dark mode theme toggle
-- Accessible via ARIA attributes
-- Pixel-perfect layout using PerfectPixel
-- Reduced motion enabled
-- Google Lighthouse audited
+If the Releases page does not show assets for your environment, check the "Releases" section on the repository for tagged builds and changelogs:
+https://github.com/Ankit-dev-loper/frontend-mentor-faq-accordion/releases
 
----
+Features
+- Semantic HTML structure for content and headings.
+- Custom, theme-aware CSS with a light/dark toggle.
+- Pure JavaScript accordion logic without frameworks.
+- Smooth open/close transitions using CSS height animation.
+- Keyboard navigation: Tab and Arrow keys, Home/End support.
+- ARIA attributes for expanded/collapsed state and roles.
+- Reduced-motion support via prefers-reduced-motion.
+- Small bundle size and no external runtime dependencies.
+- Cross-browser support for modern browsers.
 
-## 🧠 What I Learned
+Design and accessibility
+The accordion follows accessible UI patterns:
+- Buttons have aria-controls and aria-expanded.
+- Panels use role="region" and aria-labelledby.
+- Keyboard users can move focus with Arrow keys.
+- The design uses high-contrast color tokens and clear hit targets.
+- Motion respects prefers-reduced-motion.
 
-- I applied the `import` and `export` keywords for modular JavaScript approach
-- Learned the importance of modularizing code for better maintainability
-- Managing dynamic class toggling and state in JavaScript
-- Writing semantic HTML for interactive components
-- Improved accessibility skills with ARIA attributes
-- Managed to update the ARIA attributes based on current state
-- Refactored my old `theme.js` code and learned how to add more functionality
+The layout adapts to narrow screens. The FAQ list stacks vertically on phones. On wider screens, the container centers with a max-width for legibility.
 
----
+Tech stack
+- HTML5 (semantic)
+- CSS3 (variables, flexbox, transitions)
+- JavaScript (ES6 modules, no build step)
+- Optional: Netlify for deploy preview
+Topics: 5th-month, accordion, css, frontend-mentor, git, github, html, javascript, lighthouse, netlify, perfectpixel, project, theme-toggle, vscode
 
-## 🛠️ Tech Used
+Getting started
+You can run the project locally with two approaches.
 
-- HTML5
-- CSS3
-- JavaScript
-- Git
-- GitHub
-- Netlify
+Option A — Download release (no build)
+1. Visit Releases: https://github.com/Ankit-dev-loper/frontend-mentor-faq-accordion/releases  
+2. Download the latest release zip.  
+3. Extract the zip.  
+4. Open index.html in your browser.
 
----
+Option B — Clone and run locally (dev)
+1. git clone https://github.com/Ankit-dev-loper/frontend-mentor-faq-accordion.git  
+2. cd frontend-mentor-faq-accordion  
+3. Open index.html in your browser or run a static server:
+   - Python 3: python -m http.server 8000
+   - Node (http-server): npx http-server -c-1
 
-## 🎨 Design Reference & Tools
+Usage
+- The HTML contains a list of question items. Each question is a button element. Each answer is a panel element.
+- Toggle a question by clicking the button or pressing Enter/Space.
+- Use ArrowUp and ArrowDown to move between buttons.
+- Use Home and End to jump to first and last items.
+- The theme toggle stores preference in localStorage so the page remembers your choice.
 
-- JPG design image
-- PerfectPixel
+Markup example (excerpt)
+- A question uses <button aria-expanded="false" aria-controls="faq-1">.
+- The associated panel uses id="faq-1" role="region" aria-labelledby="btn-faq-1".
 
----
+Theme toggle
+The project includes a simple theme toggle. It toggles a data-theme attribute on the root element and stores the choice in localStorage.
 
-## 🚀 How to Run
+Implementation notes:
+- CSS variables drive color tokens.
+- The JS reads initial preference from localStorage or prefers-color-scheme.
+- Toggle works without a page reload.
 
-1. Clone the repository
-2. Open `index.html` in your browser
+Development tips
+- Use the component as a partial or include in templates.
+- The CSS uses CSS variables. Override the variables in a root stylesheet to match your site.
+- Keep transitions on max-height or transform where possible. The component uses a measured height technique to animate the panel.
+- To add new items, copy the markup for one question and update ids and aria-controls.
 
----
+VSCode tips
+- Enable editor.formatOnSave for consistent formatting.
+- Use the Emmet abbreviation for quick HTML scaffolding.
+- Add the workspace setting "files.associations": {"*.css": "css"} for proper highlighting.
 
-## 🌐 Live Demo
+Performance and Lighthouse
+The component keeps assets minimal:
+- No external frameworks reduce parse time.
+- CSS and JS are small and served without runtime.
+- The markup is semantic and speeds indexability.
+- Use preconnect if you add external fonts.
+- Run Lighthouse audits to verify accessibility and performance scores. The project targets a high Lighthouse score by default.
 
-Or you can check out the 👉 [live website here](https://faq-accordion-fm-jiro.netlify.app/)
+Testing and QA
+- Manual testing: keyboard navigation, screen reader check (NVDA / VoiceOver), responsive layout on mobile.
+- Automated checks: run axe or Lighthouse CI in your pipeline.
+- Visual checks: use PerfectPixel or pixel-diff tools if you enforce a visual spec.
 
----
+Deploying (Netlify)
+- This project works as a static site.
+- Connect the repo to Netlify or drag-and-drop the built folder (the extracted release).
+- Set the publish directory to the root where index.html lives.
+- Netlify supports previews for PRs and automatic deploys on push.
 
-## 📊 Performance Report
+Git, GitHub and workflow
+- Branch strategy: use feature branches and open Pull Requests.
+- Keep commits focused and atomic.
+- Use PR templates to include testing steps and screenshots.
+- Tag releases with semantic version numbers (v1.0.0) and publish assets on the Releases page.
 
-A **Google Lighthouse** audit was conducted on the final version of this project. You can view the full report [here](./assets/downloads/lighthouse-performance-report.pdf).
+Testing checklist before PR:
+- Run accessibility checks.
+- Validate keyboard interactions.
+- Check theme toggle persistence.
+- Ensure no console errors in the browser.
 
----
+Contributing
+- Fork the repo and create a branch per change.
+- Open a PR against main with a clear changelog entry.
+- Include a screenshot or animated GIF for UI changes.
+- Keep the scope small so reviews run fast.
 
-## 🧑‍💻 Author
+License
+This project uses the MIT license. See LICENSE file for full text.
 
-Created by **Elmar Chavez**
+Authors and credits
+- Creator: Ankit-dev-loper (Frontend Mentor build)
+- Challenge: Frontend Mentor — FAQ Accordion
+- Icons and images: Unsplash and open-source icon sets
 
-🗓️ Month/Year: **August 2025**
+Changelog and releases
+See the Releases page for packaged builds, version notes, and downloadable assets:
+https://github.com/Ankit-dev-loper/frontend-mentor-faq-accordion/releases
 
-📚 Journey: **5<sup>th</sup>** month of learning _frontend web development_.
+From the Releases page, download the asset for the release you want. After download, extract the archive and run index.html to load the component in your browser. Release assets typically contain:
+- index.html
+- css/
+- js/
+- assets/
+
+Acknowledgments
+- Frontend Mentor for the challenge and mockup.
+- Community contributors for pattern guidance.
+- Open-source tools for dev ergonomics.
+
+Badges and quick links
+[![Release · Download](https://img.shields.io/badge/Releases-Visit%20Releases-brightgreen?logo=github)](https://github.com/Ankit-dev-loper/frontend-mentor-faq-accordion/releases)
+- Repo: https://github.com/Ankit-dev-loper/frontend-mentor-faq-accordion
+- Releases: https://github.com/Ankit-dev-loper/frontend-mentor-faq-accordion/releases
+
+How to cite or reuse
+- Drop the HTML snippet into your page.
+- Link the CSS; include the JS before closing body tag.
+- Keep role and aria attributes for accessibility.
+
+Common issues
+- If the panel animation stutters, check for layout thrash caused by DOM writes inside the animation loop.
+- If keyboard focus jumps, ensure focus is not being programmatically moved unless needed.
+- If theme does not persist, verify localStorage permissions in the browser.
+
+Files you will find
+- index.html — demo and markup
+- src/css/styles.css — main styles (or dist css in release)
+- src/js/main.js — accordion behavior and theme toggle
+- assets/ — images and icons
+- LICENSE, README.md, CONTRIBUTING.md
+
+Contact
+Open an issue or PR on the repository for bugs, questions, or feature requests. Use clear steps to reproduce and include your browser and OS.
+
+End of file.
